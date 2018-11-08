@@ -1,0 +1,28 @@
+.form {
+    @include flex;
+    flex-direction: column;
+}
+
+.form__label--hidden {
+    display: none;
+    float: left;
+
+}
+
+.form__input {
+    outline: 0;
+    border: 0;
+    @extend %centered;
+    font-weight: $text-color;
+    border-bottom: 6px solid rgb(52, 204, 196);
+    width: 300px;
+}
+
+input {
+    margin: 15px;
+    background-color: $background-color;
+}
+
+label {
+    margin-left: 25px;
+}

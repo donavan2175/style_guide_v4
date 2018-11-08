@@ -1,0 +1,25 @@
+%centered {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+%main-logo {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px;
+}
+
+%heading {
+    font-family: 'Josefin Sans', sans-serif;
+    color: grey;
+    padding: 30px;
+    line-height: 2em;
+    word-spacing: .2em;
+}
+
+%nav-items {
+    text-align: center;
+    list-style-type: none;
+    padding: 20px;
+}

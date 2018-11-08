@@ -1,0 +1,33 @@
+button {
+    width: 300px;
+    @extend %centered;
+    background-color: rgb(0, 169, 211);
+    padding: 20px;
+    border-radius: 5px;
+    color: white;
+}
+
+.btn--default {
+    background-color: rgb(4, 158, 230);
+    margin-top: $button-space;
+}
+
+.btn--success  {
+    background-color: rgb(102, 218, 102);
+    margin-top: $button-space;
+}
+
+.btn--error {
+    background-color: rgb(240, 62, 62);
+    margin-top: $button-space;
+}
+
+.btn--warning {
+    background-color: rgb(211, 92, 37);
+    margin-top: $button-space;
+}
+
+.btn--info {
+    background-color: rgba(136, 68, 192, 0.863);
+    margin-top: $button-space;
+}

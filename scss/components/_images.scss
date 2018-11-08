@@ -1,0 +1,12 @@
+.img--logo {
+    @extend %main-logo;
+}
+
+.img--avatar, .img--frame {
+    display: block;
+    @extend %centered;
+}
+
+.img--frame {
+    width: 90%;
+}

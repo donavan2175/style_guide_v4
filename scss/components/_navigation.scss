@@ -1,0 +1,17 @@
+.nav__item {
+    text-align: center;
+    list-style-type: none;
+    padding: 20px;
+}
+
+li a { 
+    text-decoration: none;
+    color: grey;
+}
+
+li a:hover {
+    background-color: $background-color;
+    padding: 20px;
+    border-radius: 5px;
+    
+}

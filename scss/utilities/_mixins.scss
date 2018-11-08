@@ -1,0 +1,152 @@
+@mixin grids {
+    padding: 0.7em 0 0.7em 0.5em;
+    margin-bottom: 0.2em;
+    border-radius: 5px 5px;
+    display: flex;
+}
+
+@mixin flex {
+    display: flex;
+}
+
+@mixin lrg-media {
+ 
+  @media (min-width: $break-wide) {
+    .img--logo {
+        float: left;
+        margin-left: 100px;
+        margin-bottom: -70px;
+    }
+
+    li {
+        display: inline;
+    }
+
+    .nav {
+        float: right;
+        margin-top: 50px;
+        margin-left: 80px
+    }
+
+    .card p {
+        margin-right: -50px;
+    }
+    
+    .headline--secondary {
+        float: left;
+    }
+
+    .headline--primary {
+        float: left;
+        margin-top: 70px;
+        margin-left: -80px;
+        padding-right: 90px;
+    }
+
+    .grid__col--8 .card p, .blockquote {
+        float: left;
+        margin-top: 20px;
+        padding-right: 500px;
+ }
+
+    .form {
+        float: right;
+        margin-top: 500px;
+        position: relative;
+        left: -200px;
+    }
+
+    button {
+        margin-right: 20px;
+    }
+
+    .grid__col--6 .img--avatar {
+        float: right;
+        margin-bottom: -70px;
+        position: relative;
+        bottom: -30px;
+        margin-left: 60px;
+    }
+
+    .img--frame {
+        float: left;
+        width: 70%;
+        margin-top: 50px;
+        margin-left: 90px;
+    }
+
+    .grid__col--12 {
+        display: flex;
+        flex-direction: row;
+        width: 90%;
+    }
+
+    .btn--info, .btn--default, .btn--success, .btn--error, .btn--warning {
+        margin-left: 20px;
+    }
+
+    .grid__row {
+        @extend flex;
+        flex-direction: row;
+    }
+
+    .grid__row .theme__colors.grid__col--12 {
+        width: 90%;
+        margin-top: 50px;
+        margin-left: 30px;
+    }
+
+    .grid__row .theme__colors.grid__col--6 {
+        width: 40%;
+        margin-left: 20px;
+        position: relative;
+        right: -100px;
+    }
+
+    .grid__row .theme__colors.grid__col--4 {
+        width: 26%;
+        margin-left: 20px;
+        position: relative;
+        right: -100px;
+    }
+
+    .grid__row .theme__colors.grid__col--3 {
+        width: 19%;
+        margin-left: 20px;
+        position: relative;
+        right: -100px;
+    }
+
+    .grid__row .theme__colors.grid__col--5 {
+        width: 30%;
+        margin-left: 20px;
+        position: relative;
+        right: -100px;
+    }
+
+    .grid__row .theme__colors.grid__col--8 {
+        width: 54%;
+        margin-left: 20px;
+        position: relative;
+        right: -100px;
+    }
+
+    .grid__row .theme__colors.grid__col--7 {
+        width: 50%;
+        margin-left: 20px;
+        position: relative;
+        right: -100px;
+    }
+    
+    .grid__row .theme__colors.centered {
+        width: 50%;
+        margin-left: 20px;
+        position: relative;
+        right: -250px
+    }
+
+}
+
+
+
+}

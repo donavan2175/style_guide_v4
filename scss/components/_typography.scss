@@ -1,0 +1,22 @@
+h4 {
+    color: $text-color;
+}
+
+.headline--primary {
+    color: $background-color;
+}
+
+.link {
+    text-decoration: none;
+    color: rgb(0, 169, 211);
+}
+
+.blockquote {
+    @extend %heading;
+    font-size: 18px;
+    border-left: thick solid $background-color;
+}
+
+.headline--secondary {
+    color: $text-color;
+}
