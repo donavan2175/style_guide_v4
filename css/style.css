@@ -252,6 +252,7 @@ label {
 
     .card p {
         margin-right: -50px;
+        width: 900px;
     }
     
     .headline--secondary {
@@ -273,9 +274,9 @@ label {
 
     .form {
         float: right;
-        margin-top: 500px;
+        margin-top: 360px;
         position: relative;
-        left: -200px;
+        left: -350px;
     }
 
     button {
