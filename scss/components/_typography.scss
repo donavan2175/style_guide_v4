@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 h4 {
     color: $text-color;
 }
@@ -13,10 +17,16 @@ h4 {
 
 .blockquote {
     @extend %heading;
-    font-size: 18px;
-    border-left: thick solid $background-color;
 }
 
 .headline--secondary {
     color: $text-color;
+}
+
+.card {
+    font-family: 'Josefin Sans', sans-serif;
+    color: $text-color;
+    padding: 30px;
+    line-height: 2em;
+    word-spacing: .2em;
 }

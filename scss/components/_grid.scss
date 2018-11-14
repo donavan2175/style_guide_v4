@@ -4,16 +4,14 @@
 
 .grid__col--12 {
     @include flex;
-    flex-direction: column;
     padding: 20px;
     border-radius: 5px;
-    color: white;
+    color: $text-color;
     @extend %centered;
 }
 
 .grid__row {
     @include flex;
-    flex-direction: column;
     padding: 20px;
     border-radius: 5px;
     color: $text-color;
@@ -27,7 +25,7 @@
     padding: 0.7em 0 0.7em 0.5em;
     margin-bottom: 0.2em;
     border-radius: 5px 5px;
-    @include flex;
+    display: flex;
     color: $text-color;
     width: 99%;
 
@@ -66,4 +64,170 @@
 .grid__row .theme__colors.grid__col--2 {
     @include grids;
 }
+
+@media (min-width: $break-wide) {
+    .img--logo {
+        float: left;
+        margin-left: 100px;
+        margin-bottom: -70px;
+    }
+
+    li {
+        display: inline;
+    }
+
+    li a:hover {
+        background-color: 1px rgb(52, 204, 196);
+        display: inline;
+        border-radius: 5px;
+    }
+
+    .nav {
+        float: right;
+        margin-top: 50px;
+        margin-left: 80px;
+    }
+
+    .card p {
+        margin-right: -50px;
+        width: 900px;
+        font-size: 15px;
+        line-height: 1.5;
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px
+    }
+    
+    .headline--secondary {
+        float: left;
+    }
+
+    .headline--primary {
+        float: left;
+        margin-top: 70px;
+        margin-left: -80px;
+        padding-right: 90px;
+        font-size: 25px;
+        
+    }
+    
+    .grid__col--8 .card p, .blockquote {
+        float: left;
+        margin-top: 20px;
+        padding-right: 500px;
+ }
+ 
+    .form {
+        float: right;
+        margin-top: 50px;
+        position: relative;
+        left: -300px;
+    }
+
+    button {
+        margin-right: 20px;
+    }
+
+    .grid__col--6 .img--avatar {
+        float: right;
+        margin-bottom: -70px;
+        position: relative;
+        right: -150px;
+        bottom: -30px;
+        margin-left: 60px;
+        width: 100%;
+    }
+
+    .img--frame {
+        float: left;
+        width: 100%;
+        margin-top: 50px;
+        margin-left: 90px;
+        position: relative;
+        left: -100px;
+    }
+
+    .grid__col--12 {
+        display: flex;
+        flex-direction: row;
+        width: 90%;
+    }
+
+    .btn--info, .btn--default, .btn--success, .btn--error, .btn--warning {
+        margin-left: 20px;
+    }
+
+    .grid__row {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .grid__row .theme__colors.grid__col--12 {
+        width: 90%;
+        margin-top: 50px;
+        margin-left: 30px;
+    }
+
+    .grid__row .theme__colors.grid__col--6 {
+        width: 40%;
+        margin-left: 20px;
+        position: relative;
+        right: -100px;
+    }
+
+    .grid__row .theme__colors.grid__col--4 {
+        width: 26%;
+        margin-left: 20px;
+        position: relative;
+        right: -100px;
+    }
+
+    .grid__row .theme__colors.grid__col--3 {
+        width: 19%;
+        margin-left: 20px;
+        position: relative;
+        right: -100px;
+    }
+
+    .grid__row .theme__colors.grid__col--5 {
+        width: 30%;
+        margin-left: 20px;
+        position: relative;
+        right: -100px;
+    }
+
+    .grid__row .theme__colors.grid__col--8 {
+        width: 54%;
+        margin-left: 20px;
+        position: relative;
+        right: -100px;
+    }
+
+    .grid__row .theme__colors.grid__col--7 {
+        width: 50%;
+        margin-left: 20px;
+        position: relative;
+        right: -100px;
+    }
+    
+    .grid__row .theme__colors.centered {
+        width: 50%;
+        margin-left: 20px;
+        position: relative;
+        right: -250px
+    }
+ 
+
+}
+
+
+
+
+ 
+
+ 
+    
+
 
